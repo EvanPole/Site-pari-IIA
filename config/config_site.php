@@ -22,3 +22,4 @@ $bdd = new PDO("mysql:host=localhost;dbname=$fmdb;charset=utf8",$dbuser,$dbpass)
 // Session    //
 ////////////////
 session_start();
+ni
