@@ -1,0 +1,218 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-bold');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Gotham Bold';
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #d2161e;
+    --main-box: #d2161e;
+    --live-box: rgb(41, 38, 38);
+
+    --win-color: rgb(105, 184, 68);
+    --lose-color: rgb(255, 36, 36);
+
+    --button-color: #d2161e;
+    --button-color-hover: #c44248;
+}
+
+body {
+    background: var(--main-color);
+    background-image: url('http://wallpaperset.com/w/full/9/4/3/185419.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+#live {
+    background: var(--live-box);
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+/* card mid */
+.contsize {
+    width: 400px;
+    margin: 0 auto;
+    background-color: var(--main-box);
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.customstats {
+    height: 25px;
+}
+
+
+#contcardwin {
+    border-top: 4px solid var(--win-color);
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+#contcardlose {
+    border-top: 4px solid var(--lose-color);
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+
+.point {
+    text-align: center;
+}
+
+
+
+
+/* navbar */
+
+.imgplacement {
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: var(--main-color);
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.navright{
+    float: right;
+    margin-right: 5%;
+}
+.navbaritem {
+    display: inline;
+    margin: 0;
+
+}
+ .navbaritem a{
+    background-color: var(--button-color);
+    padding: 13px 13px 10px 13px;
+    transition: 0.3s;
+} 
+
+.navbutton{
+    border-bottom: 3px solid var(--lose-color);
+}   
+.navbutton:hover{
+    background-color: var(--button-color-hover);
+    transition: 0.3s;
+}
+
+#sitename{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.navbuttonpoints{
+    border-bottom: 3px solid #ffffff00;
+}   
+
+.pointnav{
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 4px;
+    background-color: #2c2c2c;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+
+
+/* match listage */
+
+.cpdm {
+    font-size: 14px;
+    color: #969696;
+    margin-top: 8px;
+    margin-left: 13px;
+}
+
+.conteineurpari {
+    background-color: #FFFFFF;
+    display: flex;
+    width: 400px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.contleft {
+    float: left;
+}
+.info {
+    text-align: center;
+    font-size: 10px;
+    color: #969696;
+    margin-top: 5px;
+}
+.textparie{
+    margin-top: 8px;
+    
+    margin-bottom: 8px;
+    width: 400px;
+    text-align: center;
+    color: #969696;
+}
+.parier {
+    display: ruby-base;
+    border: 7px solid #FFCC00;
+    background: #FFCC00;
+    border-radius: 5px;
+    color: white;
+}
+/* error page */
+.infoerror {
+    width: 400px;
+    text-align: center;
+    font-size: 15px;
+    color: #969696;
+    margin-top: 15px;
+    
+    margin-bottom: 15px;
+}
+
+/* button error retour*/
+.infoerror {
+    width: 400px;
+    text-align: center;
+    font-size: 15px;
+    color: #969696;
+    margin-top: 15px;
+    
+    margin-bottom: 15px;
+}
+
+.but {
+    color: #FFCC00;
+    width: 35px;
+}
+/* info pari */
+
+.pariinfo {
+    background-color: #FFFFFF;
+    width: 400px;
+    border-radius: 9px 9px 0px 0px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.pariinfo  p{
+    color: #969696;
+    text-align: center;
+    border-bottom: 4px solid #FFCC00;
+}

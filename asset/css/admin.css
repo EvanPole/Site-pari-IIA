@@ -1,0 +1,92 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-bold');
+:root {
+    --main-color: #d2161e;
+    --color-active-button: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gotham Bold';
+    color: white;
+}
+
+body {
+    background-color: var(--main-color);
+}
+/* error box style */
+.textinfo{
+    background-color: rgb(255, 55, 55);
+    margin: 5px;
+    text-align: center;
+    font-size: 14px;
+    border-left: 4px solid rgb(128, 128, 128);
+    border-radius: 4px;
+}
+/* box login  */
+#boxsizelogin {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    padding: 30px;
+
+    background-color: rgba(156, 66, 66, 0.788);
+    border-radius: 4px;
+}
+/* logo do site */
+#logo{
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+/* Input box style */
+.inputbox {
+    background-color: rgba(165, 42, 42, 0);
+    color: rgba(255, 255, 255, 0.815);
+    border: none;
+    margin: 10px;
+    border-bottom: 3px solid rgb(128, 128, 128);
+    border-radius: 3px;
+
+    transition: 0.3s;
+}
+
+.inputbox:focus {
+    outline: none;
+    
+    border-bottom: 3px solid var(--color-active-button);
+}
+
+.inputbox:hover {
+    border-bottom: 3px solid var(--color-active-button);
+
+    transition: 0.3s;
+}
+
+/* Input button style */
+
+.inputbutton {
+    border: none;
+    border-bottom: 4px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+
+    transition: 0.3s;
+}
+
+.connection{ 
+    background-color: #d2161e;
+}
+.inscription {
+    background-color: var(--main-color);
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.inputbutton:hover {
+    border-bottom: 4px solid rgb(252, 255, 251);
+    transition: 0.3s;
+}

@@ -1,0 +1,168 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-bold');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Gotham Bold';
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #d2161e;
+    --main-box: #d2161e;
+    --live-box: rgb(41, 38, 38);
+
+    --win-color: rgb(105, 184, 68);
+    --lose-color: rgb(255, 36, 36);
+
+    --button-color: #d2161e;
+    --button-color-hover: #c44248;
+}
+
+body {
+    background: var(--main-color);
+    background-image: url('http://wallpaperset.com/w/full/9/4/3/185419.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+#live {
+    background: var(--live-box);
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+
+
+/* navbar */
+
+.imgplacement {
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: var(--main-color);
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.navright{
+    float: right;
+    margin-right: 5%;
+}
+.navbaritem {
+    display: inline;
+    margin: 0;
+
+}
+ .navbaritem a{
+    background-color: var(--button-color);
+    padding: 13px 13px 10px 13px;
+    transition: 0.3s;
+} 
+
+.navbutton{
+    border-bottom: 3px solid var(--lose-color);
+}   
+.navbutton:hover{
+    background-color: var(--button-color-hover);
+    transition: 0.3s;
+}
+
+#sitename{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.navbuttonpoints{
+    border-bottom: 3px solid #ffffff00;
+}   
+
+.pointnav{
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 4px;
+    background-color: #2c2c2c;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+
+
+/* page profil main */
+
+#boxsizeprofiltitleline {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(66, 98, 156, 0.788);
+    border-radius: 4px;
+    border-bottom: 4px solid var(--main-color);
+}
+
+
+#boxsizeprofil{
+    display: grid;
+    margin: 0 auto;
+    margin-top: 3px;
+    width: 250px;
+    padding: 5px;
+    background-color: rgba(66, 98, 156, 0.788);
+    border-radius: 4px;
+}
+
+/* Input box style */
+.inputbox {
+    background-color: rgba(165, 42, 42, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    margin: 10px;
+    border-bottom: 3px solid rgb(128, 128, 128);
+    border-radius: 3px;
+
+    transition: 0.3s;
+}
+
+.inputbox:focus {
+    outline: none;
+    
+    border-bottom: 3px solid var(--button-color);
+}
+
+.inputbox:hover {
+    border-bottom: 3px solid var(--button-color-hover);
+
+    transition: 0.3s;
+}
+
+/* Input button style */
+
+.inputbutton {
+    
+    border: none;
+    border-bottom: 4px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--main-color);
+    transition: 0.3s;
+    
+}
+
+
+
+.inputbutton:hover {
+    border-bottom: 4px solid #d2161e;
+    transition: 0.3s;
+}
